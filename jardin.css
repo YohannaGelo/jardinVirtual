@@ -1,0 +1,52 @@
+body {
+    background-image: url("img/fondo.jpg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position-y: 7em;
+    background-position-x: 4em;
+    font-size: 22px;
+    font-family:cursive;
+    color: #313131;
+    text-align: justify;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    margin-left: 1em;
+    margin-top: 0.6em;
+    font-weight: bold;
+    font-size: 59px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    color: rgb(12, 103, 26);
+}
+
+#areaSensible {
+    margin-top: 2em;
+    color: rgb(198, 189, 15);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+input {
+    margin-left: 2em;
+    width: 20em;
+    height: 2em;
+}
+
+button {
+    margin-top: 3em;
+    padding: 0.5em;
+    background-color: rgb(12, 103, 26);
+    color: aliceblue;
+    font-size: 26px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(73, 191, 90);
+
+}
